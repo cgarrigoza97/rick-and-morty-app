@@ -49,7 +49,7 @@ export const SearchBar = () => {
                 </IconButton>
               </InputAdornment>
             }
-            label="Password"
+            label="Number"
           />
         </FormControl>
 

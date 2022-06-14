@@ -11,11 +11,13 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import HomeIcon from '@mui/icons-material/Home';
 import StarIcon from '@mui/icons-material/Star';
+import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 
 import { MainPage } from '../pages/MainPage';
 import { FavoritesPage } from '../pages/FavoritesPage';
 import { ListItemText } from '@mui/material';
 import { CharacterPage } from '../pages/CharacterPage';
+import { ExercisesPage } from '../pages/ExercisesPage';
 
 const drawerWidth = 240;
 
@@ -40,6 +42,13 @@ const routes: PageRoute[] = [
     name: 'Favorites',
     component: <FavoritesPage />,
     icon: <StarIcon />,
+    showInSidebar: true,
+  },
+  {
+    path: '/exercises',
+    name: 'Exercises',
+    component: <ExercisesPage />,
+    icon: <FormatListBulletedIcon />,
     showInSidebar: true,
   },
   {
