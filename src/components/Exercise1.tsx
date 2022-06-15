@@ -64,6 +64,10 @@ export const Exercise1 = () => {
         <Typography component="div" variant="body1">
           Number list: { JSON.stringify(numberList) }
         </Typography>
+
+        <Typography component="div" variant="body1" marginBottom="1rem">
+          The result function can be found in window.firstExerciseFunc
+        </Typography>
     </Box>
   )
 }
